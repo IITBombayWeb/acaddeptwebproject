@@ -14,8 +14,8 @@
         "drush/drush": "^8.0",
         "npm-asset/slick": "~1.0",
         "npm-asset/blazy": "~1.0",
-        "IITBombayWeb/acaddeptweb": "~0.1.0",
-        "IITBombayWeb/acadcommon": "~0.1.0"
+        "iitbombayweb/acaddeptweb": "~0.1.0",
+        "iitbombayweb/acadcommon": "~0.1.0"
     },
     "repositories": {
         "drupal": {
@@ -28,12 +28,12 @@
         },
         "acadmixdist": {
             "type": "github",
-            "url": "https://github.com/IITBombayWeb/acaddeptweb",
+            "url": "https://github.com/iitbombayweb/acaddeptweb",
             "no-api": true
         },
         "acadcommonmodules": {
             "type": "github",
-            "url": "https://github.com/IITBombayWeb/acadcommon",
+            "url": "https://github.com/iitbombayweb/acadcommon",
             "no-api": true
         }
     },
