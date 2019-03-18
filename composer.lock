@@ -4766,7 +4766,7 @@
         },
         {
             "name": "iitbombayweb/acaddeptweb",
-            "version": "8.6.0-alpha5",
+            "version": "8.6.0-alpha6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/iitbombayweb/acaddeptweb",
