@@ -4870,12 +4870,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/iitbombayweb/acaddeptweb",
-                "reference": "c5519a3bcce047d366cd45f47f3553fb21c141fd"
+                "reference": "4c69474738e4d9ef58fe17a87a55075f2d322287"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/iitbombayweb/acaddeptweb/zipball/c5519a3bcce047d366cd45f47f3553fb21c141fd",
-                "reference": "c5519a3bcce047d366cd45f47f3553fb21c141fd",
+                "url": "https://api.github.com/repos/iitbombayweb/acaddeptweb/zipball/4c69474738e4d9ef58fe17a87a55075f2d322287",
+                "reference": "4c69474738e4d9ef58fe17a87a55075f2d322287",
                 "shasum": ""
             },
             "require": {
@@ -4920,7 +4920,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Academic Depatment Website Distribution Profile 6.0",
-            "time": "2019-03-25T10:29:33+00:00"
+            "time": "2019-03-25T14:01:14+00:00"
         },
         {
             "name": "jakub-onderka/php-console-color",
