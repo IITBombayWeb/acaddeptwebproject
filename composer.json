@@ -17,8 +17,8 @@
         "npm-asset/slick": "~1.0",
         "bower-asset/slick-carousel": "~1.0",
         "npm-asset/blazy": "~1.0",
-        "iitbombayweb/acaddeptweb": "~8.6.0",
-        "iitbombayweb/acadcommon": "~8.6.0"
+        "iitbombayweb/acaddeptweb": "dev-dev",
+        "iitbombayweb/acadcommon": "dev-dev"
     },
     "repositories": {
         "drupal": {
