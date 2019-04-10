@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "05ed557dbe943a2836d68adad2771f2e",
+    "content-hash": "8b5c48516463cc50eccec3f8445da9a6",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1536,81 +1536,6 @@
             }
         },
         {
-            "name": "drupal/computed_field",
-            "version": "2.0.0-beta1",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/computed_field.git",
-                "reference": "8.x-2.0-beta1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/computed_field-8.x-2.0-beta1.zip",
-                "reference": "8.x-2.0-beta1",
-                "shasum": "a918cb85b7865f15cc5a5c327e37964e53545161"
-            },
-            "require": {
-                "drupal/core": "~8.0"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-2.x": "2.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-2.0-beta1",
-                    "datestamp": "1546032480",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Beta releases are not covered by Drupal security advisories."
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Agileware",
-                    "homepage": "https://www.drupal.org/user/89106"
-                },
-                {
-                    "name": "Moonshine",
-                    "homepage": "https://www.drupal.org/user/133705"
-                },
-                {
-                    "name": "Pedro Lozano",
-                    "homepage": "https://www.drupal.org/user/123766"
-                },
-                {
-                    "name": "colan",
-                    "homepage": "https://www.drupal.org/user/58704"
-                },
-                {
-                    "name": "dealancer",
-                    "homepage": "https://www.drupal.org/user/243418"
-                },
-                {
-                    "name": "markus_petrux",
-                    "homepage": "https://www.drupal.org/user/39593"
-                },
-                {
-                    "name": "nickcaballero",
-                    "homepage": "https://www.drupal.org/user/588336"
-                },
-                {
-                    "name": "ram4nd",
-                    "homepage": "https://www.drupal.org/user/601534"
-                }
-            ],
-            "description": "Defines a field type that allows values to be \"computed\" via PHP code.",
-            "homepage": "https://www.drupal.org/project/computed_field",
-            "support": {
-                "source": "https://git.drupalcode.org/project/computed_field"
-            }
-        },
-        {
             "name": "drupal/config_distro",
             "version": "1.0.0-alpha3",
             "source": {
@@ -2507,16 +2432,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "8.6.13",
+            "version": "8.6.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "8d5b80030ac3f13df2d66aeef0ea388fd9a90632"
+                "reference": "7f5f0369ffe08478aa0f26bd48dc95bcc9cde4b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/8d5b80030ac3f13df2d66aeef0ea388fd9a90632",
-                "reference": "8d5b80030ac3f13df2d66aeef0ea388fd9a90632",
+                "url": "https://api.github.com/repos/drupal/core/zipball/7f5f0369ffe08478aa0f26bd48dc95bcc9cde4b5",
+                "reference": "7f5f0369ffe08478aa0f26bd48dc95bcc9cde4b5",
                 "shasum": ""
             },
             "require": {
@@ -2742,7 +2667,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2019-03-20T06:01:19+00:00"
+            "time": "2019-04-08T01:37:34+00:00"
         },
         {
             "name": "drupal/csv_serialization",
@@ -5176,17 +5101,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/iitbombayweb/acadcommon",
-                "reference": "6b597aa195571914eee90bd8681e58e8726b2424"
+                "reference": "0928f3f6f09a9f5ec204fb911b3aca1f2bbe8354"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/iitbombayweb/acadcommon/zipball/6b597aa195571914eee90bd8681e58e8726b2424",
-                "reference": "6b597aa195571914eee90bd8681e58e8726b2424",
+                "url": "https://api.github.com/repos/iitbombayweb/acadcommon/zipball/0928f3f6f09a9f5ec204fb911b3aca1f2bbe8354",
+                "reference": "0928f3f6f09a9f5ec204fb911b3aca1f2bbe8354",
                 "shasum": ""
             },
             "type": "drupal-module",
             "description": "Acadmix Distribution Modules 6.0",
-            "time": "2019-03-31T17:47:12+00:00"
+            "time": "2019-04-10T09:39:02+00:00"
         },
         {
             "name": "iitbombayweb/acaddeptweb",
@@ -5194,20 +5119,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/iitbombayweb/acaddeptweb",
-                "reference": "9ea0855d8fa217cf9fc98e713b7dcf873090b3f2"
+                "reference": "9445d4e02ed159233706d6e511fed84f0cc81fb1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/iitbombayweb/acaddeptweb/zipball/9ea0855d8fa217cf9fc98e713b7dcf873090b3f2",
-                "reference": "9ea0855d8fa217cf9fc98e713b7dcf873090b3f2",
+                "url": "https://api.github.com/repos/iitbombayweb/acaddeptweb/zipball/9445d4e02ed159233706d6e511fed84f0cc81fb1",
+                "reference": "9445d4e02ed159233706d6e511fed84f0cc81fb1",
                 "shasum": ""
             },
             "require": {
+                "bower-asset/slick-carousel": "~1.0",
                 "composer/installers": "^1.0.24",
                 "drupal/admin_toolbar": "~1.24",
                 "drupal/authorization": "~1.0",
                 "drupal/coffee": "~1.0",
-                "drupal/computed_field": "~2.0",
                 "drupal/config_distro_ignore": "~1.0",
                 "drupal/config_merge_filter": "~1.0",
                 "drupal/config_sync": "~2.0",
@@ -5238,17 +5163,24 @@
                 "drupal/spamspan": "~1.0",
                 "drupal/token": "~1.3",
                 "drupal/twig_field_value": "~1.2",
-                "drupal/views_bootstrap": "~3.1"
+                "drupal/views_bootstrap": "~3.1",
+                "npm-asset/blazy": "~1.0",
+                "npm-asset/datatables": "1.9.4",
+                "solarium/solarium": "~4.2"
             },
             "type": "drupal-profile",
             "extra": {
-                "installer-paths": []
+                "installer-paths": {
+                    "docroot/libraries/slick": [
+                        "bower-asset/slick-carousel"
+                    ]
+                }
             },
             "license": [
                 "GPL-2.0-or-later"
             ],
             "description": "Academic depatment website distribution profile",
-            "time": "2019-04-05T06:53:12+00:00"
+            "time": "2019-04-10T13:39:07+00:00"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -5578,16 +5510,37 @@
             ]
         },
         {
-            "name": "npm-asset/slick",
-            "version": "1.12.2",
-            "dist": {
-                "type": "tar",
-                "url": "https://registry.npmjs.org/slick/-/slick-1.12.2.tgz"
+            "name": "npm-asset/datatables",
+            "version": "1.9.4",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:DataTables/DataTables.git",
+                "reference": "36ba2549ad48f6d56d8e5eb71e5f3f272d6da98b"
             },
-            "type": "npm-asset",
-            "license": [
-                "MIT (http://mootools.net/license.txt)"
-            ]
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DataTables/DataTables/zipball/36ba2549ad48f6d56d8e5eb71e5f3f272d6da98b",
+                "reference": "36ba2549ad48f6d56d8e5eb71e5f3f272d6da98b"
+            },
+            "require": {
+                "npm-asset/jquery": ">=1.4,<=1.8"
+            },
+            "type": "npm-asset"
+        },
+        {
+            "name": "npm-asset/jquery",
+            "version": "1.8.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:jquery/jquery.git",
+                "reference": "a0a3e5ee7f8025a498ba6daf26c2823518e96b2e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jquery/jquery/zipball/a0a3e5ee7f8025a498ba6daf26c2823518e96b2e",
+                "reference": "a0a3e5ee7f8025a498ba6daf26c2823518e96b2e"
+            },
+            "type": "npm-asset"
         },
         {
             "name": "oomphinc/composer-installers-extender",
