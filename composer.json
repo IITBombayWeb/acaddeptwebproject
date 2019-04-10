@@ -47,7 +47,7 @@
         "merge-plugin": {
             "include": ["docroot/profiles/contrib/acaddeptweb/composer.json"],
             "recurse": true,
-            "replace": true,
+            "replace": false,
             "merge-extra": true
         },
         "installer-types": ["bower-asset", "npm-asset"],
