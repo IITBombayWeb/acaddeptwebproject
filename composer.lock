@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "85d91141b9411e552dfc6bda235be90e",
+    "content-hash": "2f5ffa1349b8a1edd270b152de85cab7",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -124,16 +124,16 @@
         },
         {
             "name": "bower-asset/jquery",
-            "version": "3.3.1",
+            "version": "3.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jquery/jquery-dist.git",
-                "reference": "9e8ec3d10fad04748176144f108d7355662ae75e"
+                "reference": "180c5c33e477463ed93a9d5f7ac7cad7c9809f1c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jquery/jquery-dist/zipball/9e8ec3d10fad04748176144f108d7355662ae75e",
-                "reference": "9e8ec3d10fad04748176144f108d7355662ae75e",
+                "url": "https://api.github.com/repos/jquery/jquery-dist/zipball/180c5c33e477463ed93a9d5f7ac7cad7c9809f1c",
+                "reference": "180c5c33e477463ed93a9d5f7ac7cad7c9809f1c",
                 "shasum": null
             },
             "type": "bower-asset",
@@ -5365,21 +5365,20 @@
         },
         {
             "name": "iitbombayweb/acaddeptweb",
-            "version": "8.6.0-alpha11",
+            "version": "8.6.0-alpha12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/iitbombayweb/acaddeptweb",
-                "reference": "11b137a97888bc3877bf96dd0090af6340aabefd"
+                "reference": "d1a8493b24639a5e7fc6d8e61d7dcb6ae7a3e964"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/iitbombayweb/acaddeptweb/zipball/11b137a97888bc3877bf96dd0090af6340aabefd",
-                "reference": "11b137a97888bc3877bf96dd0090af6340aabefd",
+                "url": "https://api.github.com/repos/iitbombayweb/acaddeptweb/zipball/d1a8493b24639a5e7fc6d8e61d7dcb6ae7a3e964",
+                "reference": "d1a8493b24639a5e7fc6d8e61d7dcb6ae7a3e964",
                 "shasum": ""
             },
             "require": {
                 "bower-asset/slick-carousel": "~1.0",
-                "composer/installers": "^1.0.24",
                 "drupal/admin_toolbar": "~1.24",
                 "drupal/authorization": "~1.0",
                 "drupal/better_exposed_filters": "~3.0",
@@ -5429,11 +5428,16 @@
                     ]
                 }
             },
+            "scripts": {
+                "remove-extra-libraries": [
+                    "rm -rf docroot/libraries/slick-carousel"
+                ]
+            },
             "license": [
                 "GPL-2.0-or-later"
             ],
             "description": "Academic depatment website distribution profile",
-            "time": "2019-04-11T11:01:35+00:00"
+            "time": "2019-04-12T16:07:02+00:00"
         },
         {
             "name": "jakub-onderka/php-console-color",

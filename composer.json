@@ -6,11 +6,11 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "wikimedia/composer-merge-plugin": "^1.4",
         "drupal/core": "~8.6.0",
         "drupal-composer/drupal-scaffold": "~2.4.0",
         "cweagans/composer-patches": "^1.6.0",
         "oomphinc/composer-installers-extender": "^1.1",
+        "wikimedia/composer-merge-plugin": "^1.4",
         "drupal/console": "~1.0",
         "drush/drush": "^8.0",
         "solarium/solarium": "~4.2",
@@ -48,7 +48,9 @@
             "include": ["docroot/profiles/contrib/acaddeptweb/composer.json"],
             "recurse": true,
             "replace": false,
-            "merge-extra": true
+            "merge-extra": true,
+            "merge-extra-deep": true,
+            "merge-scripts": true
         },
         "installer-types": ["bower-asset", "npm-asset"],
         "installer-paths": {
