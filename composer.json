@@ -6,17 +6,17 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": ">=7.1.0",
-        "drupal/core": "~8.7.0",
+        "php": ">=7.3.0",
+        "drupal/core": "~8.8.0",
         "drupal-composer/drupal-scaffold": "~2.4.0",
-        "szeidler/composer-patches-cli": "dev-master",
+        "szeidler/composer-patches-cli": "~1.0.0",
         "oomphinc/composer-installers-extender": "^1.1",
         "wikimedia/composer-merge-plugin": "^1.4",
         "drupal/console": "~1.0",
         "drush/drush": "^8.0",
         "solarium/solarium": "~4.2",
-        "iitbombayweb/acaddeptweb": "dev-dev",
-        "iitbombayweb/acadcommon": "dev-dev"
+        "iitbombayweb/acaddeptweb": "dev-dev#31b33dcb907dab0daa62ee2259d7febde6d32c9c",
+        "iitbombayweb/acadcommon": "dev-dev#cbcf92daeb004610b48e5f408b0a7cb84bced2a0"
     },
     "conflict": {
         "symfony/http-foundation": "3.4.24"
